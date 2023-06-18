@@ -5,7 +5,7 @@
 
   <groupId>no.cantara.realestate</groupId>
   <artifactId>api-java</artifactId>
-  <version>0.3.0</version>
+  <version>0.3.1-SNAPSHOT</version>
 
   <name>realestate-api-java</name>
 <url>https://github.com/Cantara/realestate-api-java</url>
@@ -19,7 +19,7 @@
     <developerConnection>scm:git:ssh://git@github.com/cantara/realestate-api-java.git</developerConnection>
     <connection>scm:git:https://github.com/cantara/realestate-api-java.git</connection>
     <url>https://github.com/cantara/realestate-api-java</url>
-    <tag>v0.3.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
