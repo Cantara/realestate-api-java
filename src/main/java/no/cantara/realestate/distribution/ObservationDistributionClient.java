@@ -7,7 +7,15 @@ import java.util.List;
 
 public interface ObservationDistributionClient {
 
+    String getName();
+    void openConnection();
+    void closeConnection();
+
+    boolean isConnectionEstablished();
+
     void publish(ObservationMessage message);
+
+    long getNumberOfMessagesObserved();
 
 
     /**
